@@ -69,7 +69,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <TargetName>luuid</TargetName>
+    <TargetName>luauuid</TargetName>
     <OutDir>$(SolutionDir)bin\windows\64\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)build\windows\$(TargetName).dir\$(Configuration)\</IntDir>
   </PropertyGroup>
