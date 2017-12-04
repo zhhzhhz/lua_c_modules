@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lua51", "..\lua51\lua51.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lua-gd", "..\lua-gd\lua-gd.vcxproj", "{FD8E4DDE-FBA9-4808-8102-335D07C51B05}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "socket", "..\luasocket-2.0.2\socket.vcxproj", "{66E3CE14-884D-4AEA-9F20-15A0BEAF8C5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,12 @@ Global
 		{FD8E4DDE-FBA9-4808-8102-335D07C51B05}.Release|x64.Build.0 = Release|x64
 		{FD8E4DDE-FBA9-4808-8102-335D07C51B05}.Release|x86.ActiveCfg = Release|Win32
 		{FD8E4DDE-FBA9-4808-8102-335D07C51B05}.Release|x86.Build.0 = Release|Win32
+		{66E3CE14-884D-4AEA-9F20-15A0BEAF8C5A}.Debug|x64.ActiveCfg = Debug|Win32
+		{66E3CE14-884D-4AEA-9F20-15A0BEAF8C5A}.Debug|x86.ActiveCfg = Debug|Win32
+		{66E3CE14-884D-4AEA-9F20-15A0BEAF8C5A}.Debug|x86.Build.0 = Debug|Win32
+		{66E3CE14-884D-4AEA-9F20-15A0BEAF8C5A}.Release|x64.ActiveCfg = Release|x64
+		{66E3CE14-884D-4AEA-9F20-15A0BEAF8C5A}.Release|x86.ActiveCfg = Release|Win32
+		{66E3CE14-884D-4AEA-9F20-15A0BEAF8C5A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
