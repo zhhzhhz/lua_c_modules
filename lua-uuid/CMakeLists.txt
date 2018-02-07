@@ -36,7 +36,7 @@ endif(WIN32)
 
 # Define the CXX sources
 set ( CXX_SRCS
-    ${PROJECT_SOURCE_DIR}/lua-uuid/src/luauuid.c
+    ${PROJECT_SOURCE_DIR}/lua-uuid/src/luauuid.cpp
 )
 
 #{{{{ User Code 2
@@ -45,7 +45,7 @@ set ( CXX_SRCS
 
 set_source_files_properties(
     ${CXX_SRCS} PROPERTIES COMPILE_FLAGS 
-    " -std=c99")
+    " -std=c++11")
 	
 add_library(luauuid SHARED ${RC_SRCS} ${CXX_SRCS} ${C_SRCS})
 target_link_libraries(luauuid
