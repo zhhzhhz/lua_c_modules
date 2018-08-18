@@ -1,0 +1,4 @@
+LIBRARY lfs.dll
+DESCRIPTION "LuaFileSystem"
+EXPORTS
+luaopen_lfs

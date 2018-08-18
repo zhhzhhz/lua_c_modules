@@ -109,6 +109,10 @@ static const char *json_token_type_name[] = {
     NULL
 };
 
+#ifdef _WIN32
+#define strncasecmp	_strnicmp
+#endif
+
 typedef struct {
     json_token_type_t ch2token[256];
     char escape2char[256];  /* Decoding */
@@ -1399,6 +1403,9 @@ static int lua_cjson_safe_new(lua_State *l)
     return 1;
 }
 
+#ifdef _WIN32
+_declspec (dllexport)
+#endif
 int luaopen_cjson(lua_State *l)
 {
     lua_cjson_new(l);
@@ -1413,6 +1420,9 @@ int luaopen_cjson(lua_State *l)
     return 1;
 }
 
+#ifdef _WIN32
+_declspec (dllexport)
+#endif
 int luaopen_cjson_safe(lua_State *l)
 {
     lua_cjson_safe_new(l);

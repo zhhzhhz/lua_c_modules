@@ -17,6 +17,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "socket", "..\luasocket-2.0.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lua-uuid", "..\lua-uuid\lua-uuid.vcxproj", "{73FE25D5-2C8C-4E06-974F-B43C7405D9FA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luafilesystem", "..\luafilesystem\luafilesystem.vcxproj", "{D8D7EBF5-6580-4709-83DD-D84F4AAC380C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lua-cjson", "..\lua-cjson\lua-cjson.vcxproj", "{3902D8CC-2988-4116-83F2-359341CEBA74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -63,6 +67,22 @@ Global
 		{73FE25D5-2C8C-4E06-974F-B43C7405D9FA}.Release|x64.Build.0 = Release|x64
 		{73FE25D5-2C8C-4E06-974F-B43C7405D9FA}.Release|x86.ActiveCfg = Release|Win32
 		{73FE25D5-2C8C-4E06-974F-B43C7405D9FA}.Release|x86.Build.0 = Release|Win32
+		{D8D7EBF5-6580-4709-83DD-D84F4AAC380C}.Debug|x64.ActiveCfg = Debug|x64
+		{D8D7EBF5-6580-4709-83DD-D84F4AAC380C}.Debug|x64.Build.0 = Debug|x64
+		{D8D7EBF5-6580-4709-83DD-D84F4AAC380C}.Debug|x86.ActiveCfg = Debug|Win32
+		{D8D7EBF5-6580-4709-83DD-D84F4AAC380C}.Debug|x86.Build.0 = Debug|Win32
+		{D8D7EBF5-6580-4709-83DD-D84F4AAC380C}.Release|x64.ActiveCfg = Release|x64
+		{D8D7EBF5-6580-4709-83DD-D84F4AAC380C}.Release|x64.Build.0 = Release|x64
+		{D8D7EBF5-6580-4709-83DD-D84F4AAC380C}.Release|x86.ActiveCfg = Release|Win32
+		{D8D7EBF5-6580-4709-83DD-D84F4AAC380C}.Release|x86.Build.0 = Release|Win32
+		{3902D8CC-2988-4116-83F2-359341CEBA74}.Debug|x64.ActiveCfg = Debug|x64
+		{3902D8CC-2988-4116-83F2-359341CEBA74}.Debug|x64.Build.0 = Debug|x64
+		{3902D8CC-2988-4116-83F2-359341CEBA74}.Debug|x86.ActiveCfg = Debug|Win32
+		{3902D8CC-2988-4116-83F2-359341CEBA74}.Debug|x86.Build.0 = Debug|Win32
+		{3902D8CC-2988-4116-83F2-359341CEBA74}.Release|x64.ActiveCfg = Release|x64
+		{3902D8CC-2988-4116-83F2-359341CEBA74}.Release|x64.Build.0 = Release|x64
+		{3902D8CC-2988-4116-83F2-359341CEBA74}.Release|x86.ActiveCfg = Release|Win32
+		{3902D8CC-2988-4116-83F2-359341CEBA74}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
